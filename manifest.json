@@ -1,11 +1,10 @@
 {
   "name": "Lingr Notifier for Chrome",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "minimum_chrome_version": "5",
-  "description": "Notify messages.",
+  "description": "Notify messages looks like Lingr Radar.",
   "permissions": [
 	"tabs",
-    "notifications",
 	"http://lingr.com/*"
   ],
   "content_scripts": [
