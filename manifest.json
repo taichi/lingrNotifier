@@ -1,0 +1,18 @@
+{
+  "name": "Lingr Notifier for Chrome",
+  "version": "0.0.1",
+  "minimum_chrome_version": "5",
+  "description": "Notify messages.",
+  "permissions": [
+	"tabs",
+    "notifications",
+	"http://lingr.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://lingr.com/*"],
+      "js" : ["contentscript.js"],
+      "css" : ["notify.css"]
+    }
+  ]
+}

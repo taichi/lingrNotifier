@@ -1,0 +1,11 @@
+#left #popupNotify {
+  float: right;
+  margin: 0 10px 0 0;
+  
+  width: 24px;
+  overflow: hidden;
+}
+
+#left #popupNotify .disabled {
+  margin-left: -24px;
+}
